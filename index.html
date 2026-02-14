@@ -2,7 +2,7 @@
 <!-- saved from url=(0090)https://baque2005.github.io/public-files/2025/11/f4ce8d64-132f-4e9e-894d-0cfa32187143.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
     <title>Galaxy of Love</title>
     <link href="./Galaxy of Love_files/css2" rel="stylesheet">
     <link rel="stylesheet" href="./Galaxy of Love_files/all.min.css">
@@ -32,7 +32,7 @@
         /* Floating CSS hearts in background */
         .heart {
             position: absolute;
-            color: rgba(255, 100, 100, 0.15);
+            color: rgba(255, 215, 0, 0.15);
             font-size: 24px;
             animation: float 15s infinite ease-in-out;
             z-index: 0;
@@ -73,7 +73,7 @@
             top: 20px;
             left: 50%;
             transform: translateX(-50%);
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(255, 255, 255, 0.9);
             font-family: Georgia, serif;
             font-size: 14px;
             text-align: center;
@@ -360,7 +360,7 @@
 </head>
 <body>
     <canvas class="webgl" width="1920" height="935" style="touch-action: none; width: 1536px; height: 748px;"></canvas>
-    <div class="instructions">Asi que le diste que si?</div>
+    <div class="instructions">MI AMOR POR TI ES COMO EL UNIVERSO</div>
     <div class="credits">Jheizon</div>
     
     <!-- Menú de configuración -->
@@ -391,7 +391,7 @@
             <div class="config-option">
                 <label>Color principal</label>
                 <div class="color-options">
-                    <div class="color-option active" style="background-color: #FFD700;" data-color="#FFD700"></div>
+                    <div class="color-option active" style="background-color: #0949f0;" data-color="#0949f0"></div>
                     <div class="color-option" style="background-color: #C7B8EA;" data-color="#C7B8EA"></div>
                     <div class="color-option" style="background-color: #800080;" data-color="#800080"></div>
                     <div class="color-option" style="background-color: #0949f0;" data-color="#0949f0"></div>
@@ -483,7 +483,7 @@
             heartSize: 0.8,
             heartSizeVariation: 0.2,
             insideColor: '#ff0055',
-            outsideColor: '#ff3088',
+            outsideColor: '#0949f0',
             centerHeartSize: 3.2,
             centerHeartParticles: 3000,
             nucleusParticles: 800,
@@ -872,7 +872,7 @@
         });
 
         const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 200);
-        camera.position.set(9, 5, 9);
+        camera.position.set(9, 5, 150);
         scene.add(camera);
 
         const controls = new OrbitControls(camera, canvas);
@@ -991,7 +991,7 @@
 
 
     <audio id="bg-music" loop="" autoplay="">
-       <source src="https://github.com/jheizonferrufino-code/Lucia-ailen/blob/main/umbrella.opus.opus" type="audio/mpeg">
+       <source src="umbrella.opus" type="audio/ogg">
         Tu navegador no soporta el elemento de audio.
     </audio>
 
@@ -1009,7 +1009,6 @@
             }, { once: true });
         });
     </script>
-
 
 
 
